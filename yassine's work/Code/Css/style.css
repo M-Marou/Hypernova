@@ -168,6 +168,10 @@ footer{
     text-decoration: none;
     color: black;
     padding: 3rem;
+    transition-duration: 0.5;
+}
+.menu a:hover{
+    color: gray;
 }
 .s3{
    
