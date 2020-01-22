@@ -147,6 +147,3 @@ button {
     bottom: 10%;
     transform-style: preserve-3d;
 }
-button:hover {
-    transform: rotateY(180);
-}
