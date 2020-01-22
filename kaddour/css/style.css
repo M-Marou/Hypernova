@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+}
+
+
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Roboto';
+}
+.container {
+    width: 90%;
+    margin-left: 5%;
+}
+h1 {
+    font-family: 'Roboto';
+    font-size: 32px;
+    color: #658da7;
+    text-align: center;
+}
+hr {
+    width: 20%;
+    height: 3px;
+    background-color: #658da7;
+    border: none;
+}
+.temoin {
+    width: 100%;
+    margin-top: 20px;
+    display: flex
+}
+.temoin p {
+    width: 80%;
+    height: 30%;
+    font-size: 24px;
+    color: #6f6E6E;
+    font-family: 'Roboto';
+    line-height: 40px;
+    text-align: center;
+}
+.images {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.name {
+    display: inline-block;
+    width: 30%;
+}
+.name div {
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    color: #6f6E6E;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.pack {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.line {
+    width: 100%;
+    height: 5px;
+    border: none;
+    color: #658da7;
+    margin-top: 20px;
+}
+.propos {
+    font-family: 'roboto';
+    font-size: 1.5em;
+    text-align: center;
+    color: #c1d5db;
+    top: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.pricing {
+    font-family: 'roboto';
+    font-size: 2em;
+    text-align: center;
+    color: #6f6E6E;
+}
+.flex-table {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+.table {
+    border: 2px solid #658da7;
+    width: 28%;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 5px 5px #6f6E6E;
+}
+.title {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 32px;
+    color: #c1d5db;
+    height: 30%px;
+    margin-top: 20px;
+}
+.prix {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 2em;
+    color: white;
+    background-color: #C1D5DB;
+    line-height: 40px;
+}
+.prix1 {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 2em;
+    color: white;
+    background-color: #658da7;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.table ul {
+    text-align: justify;
+    font-family: 'roboto';
+    font-size: 24px;
+    list-style-type: disc;
+    margin-top: 40px;
+}
+.table ul li {
+    margin: 5%;
+}
+button {
+    width: 180px;
+    height: 50px;
+    left: 30px;
+    font-family: 'roboto';
+    font-size: 24px;
+    color: white;
+    background-color: #658da7;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    border: none;
+    bottom: 10%;
+    transform-style: preserve-3d;
+}
+button:hover {
+    background-color: blue;
+}
