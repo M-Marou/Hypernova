@@ -4,19 +4,21 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 8px;
 }
-.menu{
+.menu1{
 position: absolute;
 top: 50px;
 left: 400px;
 
 }
-.menu a {
+.menu1 a {
 margin-left: 30px;
 text-decoration: none;
 color:white;
 font-family: 'Roboto', sans-serif;
 margin-right: 40px;
+font-size: 2rem;
 }
 nav{
  margin-left: 100px;
@@ -42,9 +44,8 @@ max-width: 60%;
     width: 500px;
     margin-top: 280px;
     margin-left: 20PX;
-    font-family: 'Roboto', sans-serif;
-
-
+    font-family: 'Roboto', sans-serif; 
+    font-size: 2rem;
 }
 input{
 margin-left: 100;
@@ -76,6 +77,5 @@ margin-left: 5%;
    }
 header{
     background-image: url(img/background.png);
-    background-size: 100%;
-    
+    background-size: 100%;  
 }
