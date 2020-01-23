@@ -1,4 +1,4 @@
-html {
+* {
     box-sizing: border-box;
 }
 
@@ -41,28 +41,28 @@ hr {
     text-align: center;
 }
 .images {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    margin-left: 200px;
-    margin-top: 30px;
+    width: 70%;
+    height: 70%px;
     border-radius: 50%;
+    transform: translateX(22%);
 }
 .name {
-    display: inline-block;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
 }
 .name div {
     font-family: 'Roboto';
     font-size: 1.5em;
     color: #6f6E6E;
-    margin-left: 190px;
-    margin-top: 20px;
+    text-align: center;
 }
 .pack {
     width: 100%;
     display: inline-block;
     margin-bottom: 30px;
+    perspective: 100px;
 }
 .line {
     width: 100%;
@@ -97,6 +97,29 @@ hr {
     margin-top: 40px;
     text-align: center;
     box-shadow: 5px 5px #6f6E6E;
+    animation: animationpack 10s infinite normal;
+    position: relative;
+}
+.table>div ul {
+    width: 100%;
+    position: absolute;
+}
+@keyframes animationpack {
+    0% {
+        background-color: white;
+    }
+    
+    25% {
+        background-color: #C1D5DB;
+    }
+    
+    75% {
+        background-color: #658da7;
+    }
+    
+    100% {
+        background-color: #c1d5dB;
+    }
 }
 .title {
     text-align: center;
@@ -145,8 +168,11 @@ button {
     border-radius: 50px;
     border: none;
     bottom: 10%;
-    transform-style: preserve-3d;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 button:hover {
-    background-color: blue;
+    background-color: #c1d5dB;
 }
